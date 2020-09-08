@@ -1,0 +1,67 @@
+.MainConatainer{
+    width: 450px;
+    height: 550px;
+   
+    background-clip: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    background: #6C00F3;
+    box-shadow:  20px 20px 60px #5c00cf, 
+                 -20px -20px 60px #7c00ff;
+}
+.Title{
+    font-weight:900 ;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    padding-left: 4.9em;
+   
+
+}
+.InputWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+.Input{
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+   padding-left: 15px;
+    box-sizing: border-box;
+}
+.Input[type=name] {
+    border: none;
+    border-bottom: 4px solid red;
+    background-color: transparent;
+    color: white;
+  }
+  .Input[type=email] {
+    border: none;
+    border-bottom: 4px solid red;
+    background-color: transparent;
+    color: white;
+  }
+  .Input[type=password] {
+    border: none;
+    border-bottom: 4px solid red;
+    background-color: transparent;
+    color: white;
+  }
+  .SignInButton{
+      width: 180px;
+      height: 40px;
+      border-radius: 25px;
+      outline: none;  
+      margin-left: 119px;
+      background: #00F7A9;
+      font-size: 20px;
+      font-weight: 600;
+      color: #6C00F3;
+      border: 1px solid #ccc;
+     
+    }
